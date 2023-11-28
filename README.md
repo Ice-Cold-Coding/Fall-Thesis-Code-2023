@@ -8,6 +8,7 @@ Use File 2 to spit the images into train-test splits with stratified sampling. F
 Upload File 3 along with the KAIR-Gaussian_blur_bicubic_interpolation folder onto Google Drive. Note you need to change the train and test directory in the main_train_psnr.py file for it to work. 
 
 Open the superresolution sub-folder in the KAIR-Gaussian_blur_bicubic_interpolation folder and download the images. File 4 will now be used to extract the superresolution images based on the epoch. 
-The images will also be put back into HGG and LGG folders along with creating the train-test-validation splits for the classification task.
+The images will also be put back into HGG and LGG folders along with creating the train-test-validation splits for the classification task. Next run File 5, this will tune the hyper-parameters for the ResNet50's.
+Finally, run File 6 to train and test the ResNet50's and obtain the results.
 
 
