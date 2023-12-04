@@ -9,8 +9,8 @@ Upload File 3 along with the KAIR-Gaussian_blur_bicubic_interpolation folder ont
 
 After running the code in File 3, Open the superresolution sub-folder in the KAIR-Gaussian_blur_bicubic_interpolation folder and download the images. Note this folder is created only after the model has been trained for at least 1 epoch.
 File 4 will now be used to extract the super-resolution images based on the epoch. The images will also be put back into HGG and LGG folders along with creating the train-test-validation splits for the classification task. 
-Next run File 5, this will tune the hyper-parameters for the ResNet50.
-Finally, run File 6 to train and test the ResNet50s and obtain the results.
+Next run File 5, this will tune the hyper-parameters for the ResNet50. Run File 6 to train and test the ResNet50s and obtain the results.
+Additionally, Files 7 and 8 contain the code used to aggregate the performance metrics and create the plots visible in the thesis
 
 Credit to https://github.com/cszn/KAIR/tree/master for providing the code for the SwinIR model
 
