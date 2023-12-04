@@ -12,4 +12,5 @@ File 4 will now be used to extract the super-resolution images based on the epoc
 Next run File 5, this will tune the hyper-parameters for the ResNet50.
 Finally, run File 6 to train and test the ResNet50s and obtain the results.
 
+Credit to https://github.com/cszn/KAIR/tree/master for providing the code for the SwinIR model
 
